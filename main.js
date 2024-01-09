@@ -40,7 +40,7 @@ function downloadInformationLocalStorage() {
     </thead>
     <tbody>
         <tr>
-        <th scope="row">${name}</th>
+        <th>${name}</th>
         <td>${lastName}</td>
         <td>${email}</td>
         <td>${age}</td>
