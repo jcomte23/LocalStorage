@@ -1,5 +1,4 @@
 import './style.scss'
-import * as bootstrap from 'bootstrap'
 
 const main = document.querySelector(".container-fluid")
 const name = document.getElementById("name")
