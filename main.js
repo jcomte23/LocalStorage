@@ -24,31 +24,29 @@ function uploadInformationLocalStorage() {
 }
 
 function downloadInformationLocalStorage() {
-    const name = localStorage.getItem("name")
-    const lastName = localStorage.getItem("lastName")
-    const email = localStorage.getItem("email")
-    const age = localStorage.getItem("age")
+    let name = localStorage.getItem("name")
+    let lastName = localStorage.getItem("lastName")
+    let email = localStorage.getItem("email")
+    let age = localStorage.getItem("age")
     main.innerHTML += `
     <table class="table">
-    <thead>
-        <tr>
-        <th scope="col">Name</th>
-        <th scope="col">LastFirst</th>
-        <th scope="col">Email</th>
-        <th scope="col">Age</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-        <th>${name}</th>
-        <td>${lastName}</td>
-        <td>${email}</td>
-        <td>${age}</td>
-        </tr>
-    </tbody>
+        <thead>
+            <tr>
+            <th scope="col">Name</th>
+            <th scope="col">LastFirst</th>
+            <th scope="col">Email</th>
+            <th scope="col">Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th>${name}</th>
+            <td>${lastName}</td>
+            <td>${email}</td>
+            <td>${age}</td>
+            </tr>
+        </tbody>
     </table>
-      `
-
-
+    `
 }
 
