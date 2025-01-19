@@ -1,4 +1,4 @@
-import './style.scss'
+import '../scss/style.scss'
 
 const main = document.querySelector(".container-fluid")
 const name = document.getElementById("name")
